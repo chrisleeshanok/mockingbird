@@ -1,0 +1,5 @@
+{
+    "registry": {
+        "search": ["http://chrisls-vm1.torolab.ibm.com:5080", "http://x1showcase.emmlabs.ibm.com:5678"]
+    }
+}

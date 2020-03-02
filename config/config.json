@@ -1,0 +1,15 @@
+{
+    "CONFIG": {
+        "HOSTNAME": "localhost",
+        "PORT": 4000,
+        "HTTPS_PORT": 4443
+    },
+    "ROUTING": {
+        "CONTEXT_ROOT": "http://localhost:4000/mockingbird",
+        "APP_URI": "/mockingbird"
+    },
+    "SSL": {
+        "PRIVATE_KEY": "./keys/server.key",
+        "CERTIFICATE": "./keys/server.crt"
+    }
+}

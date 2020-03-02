@@ -1,0 +1,47 @@
+{>page/}
+{<content}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <a href="{context_root}/mocks/create">
+                    <button class="btn btn-primary">Create New Mock</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="container-fluid">
+        <table class="mocks-table table">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Author</th>
+                <th>Component</th>
+                <th>Product</th>
+                <th>Endpoint</th>
+                <th class="text-right">Options</th>
+            </tr>
+            {#mocks}
+                <tr>
+                    <td>{name}</td>
+                    <td>{metadata.description}</td>
+                    <td>{metadata.author}</td>
+                    <td>{component.name}</td>
+                    <td>{component.product}</td>
+                    <td class="endpointCell">
+                        <div class="input-group">
+                            <input id="endpoint{_id}" class="form-control endpointURL" type="text" readonly value="{context_root}/mockapi/mock/{_id}"></input>
+                            <div class="input-group-btn">
+                                <button class="btn btn-default clipboardButton" data-clipboard-target="#endpoint{_id}">Copy</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <a href="{context_root}/mocks/edit/{_id}"</a><button class="btn btn-warning">Edit</button></a>
+                    </td>
+                </tr>
+            {/mocks}
+        </table>
+    </div>
+    <script src="{context_root}/public/js/mocks.js"></script>
+{/content}

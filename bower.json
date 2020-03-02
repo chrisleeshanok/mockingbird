@@ -1,0 +1,22 @@
+{
+  "name": "common-ui-gallery-api",
+  "description": "",
+  "authors": [
+    "Chris Lee <chrisls@ca.ibm.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "x1-ui-bootstrap": "~2.12.0",
+    "bootstrap": "~3.3.6"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "CONFIG": {
+        "HOSTNAME": "localhost",
+        "PORT": 4000,
+        "HTTPS_PORT": 4443
+    },
+    "ROUTING": {
+        "CONTEXT_ROOT": "http://chrisls-vm1.torolab.ibm.com/mockingbird",
+        "APP_URI": "/mockingbird"
+    }
+}

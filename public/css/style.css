@@ -1,0 +1,33 @@
+body {
+  padding: 50px 10px;
+  padding-top: 60px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fff; }
+
+body > nav {
+  background-color: #2962ff;
+  color: #ffffff; }
+
+a {
+  color: #00B7FF; }
+
+.endpointCell {
+  width: 710px; }
+  .endpointCell input {
+    font-size: 0.9em; }
+
+.json-field {
+  min-height: 150px;
+  font-size: 0.9em; }
+
+.json-field-edit {
+  min-height: 220px;
+  font-size: 0.9em; }
+
+.inline-radio {
+  margin-right: 20px;
+  margin-bottom: 10px; }
+
+table tr:nth-child(2n) td {
+  background-color: #eceff1; }

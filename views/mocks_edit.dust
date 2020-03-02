@@ -1,0 +1,5 @@
+{>page/}
+{<content}
+<div id="reactContainer"></div>
+<script src="{context_root}/public/js/mocks_edit.js"></script>
+{/content}

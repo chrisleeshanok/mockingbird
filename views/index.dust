@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mockingbird - Mock your data (BETA)</title>
+        <meta httpEquiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+        <link rel="stylesheet" href="{context_root}/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="{context_root}/public/css/style.css"/>
+        <script type="text/javascript" src="{context_root}/public/js/vendor.js"></script>
+    </head>
+    <body>
+        <nav class="x1-ui-top-navigation navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="{context_root}/">
+                        Mockingbird | Mock-up your data
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            Quickly Mock up an API Endpoint
+                        </h1>
+                        <hr/>
+                        <p>
+                            Mockingbird allows you to create a mock API Endpoint, assign Verbs (GET|POST|PUT|PATCH|DELETE), and assign response codes and JSON data to each of those verbs.
+                        </p>
+                        <p>
+                            Mock Endpoints can support multiple verbs, each can have their own response code and data.
+                        </p>
+                        <hr/>
+                        <p>
+                            <a href="{context_root}/mocks" style="margin-right: 10px;">
+                                <button class="btn btn-success">View Endpoints</button>
+                            </a>
+                            <a href="{context_root}/mocks/create">
+                                <button class="btn btn-primary">Create an Endpoint</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

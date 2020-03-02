@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mockingbird - Mock your data (BETA)</title>
+        <meta httpEquiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+        <link rel="stylesheet" href="{context_root}/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="{context_root}/public/css/style.css"/>
+        <script type="text/javascript" src="{context_root}/public/js/vendor.js"></script>
+        <script id='CONTEXT_ROOT' type='application/json'>{context_root}</script>
+        <script id='currentMock' type='application/json'>{mock|s}</script>
+        <script id='currentMethods' type='application/json'>{methods|s}</script>
+    </head>
+    <body>
+        <nav class="x1-ui-top-navigation navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="{context_root}/">
+                        Mockingbird | Mock-up your data
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+        {+content}
+            Content goes here
+        {/content}
+        </div>
+
+    </body>
+</html>
